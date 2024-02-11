@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:22-ea-34
 WORKDIR /src
 COPY . .
 RUN ./gradlew bootJar
