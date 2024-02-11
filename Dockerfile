@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:23-ea-8-jdk-oracle
 WORKDIR /src
 COPY . .
 RUN ./gradlew bootJar
